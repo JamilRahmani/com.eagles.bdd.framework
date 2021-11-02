@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import core.Base;
-import utilites.WebDriverUtility;
+import utilities.WebDriverUtility;
 
 public class RegisterPageObject extends Base {
 
@@ -75,7 +75,7 @@ public class RegisterPageObject extends Base {
 		WebDriverUtility.enterValue(confirmPassword, confirmPasswordValue);
 
 	}
-
+	
 	public void subscribe(String subscribeValue) {
 		if (subscribeValue.equalsIgnoreCase("yes")) {
 			if (!yesSubscribe.isSelected())

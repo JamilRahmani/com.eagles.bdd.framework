@@ -7,7 +7,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pageObjectRepository.LaptopsNoteBooksPageObject;
 import pageObjectRepository.ShaiqLaptopsNoteBooksPageObject;
-import utilites.WebDriverUtility;
+import utilities.WebDriverUtility;
 
 public class ShaiqLaptopsNoteBooksStepDef extends Base {
 	
@@ -52,6 +52,8 @@ public class ShaiqLaptopsNoteBooksStepDef extends Base {
 		
 	}
 
+	//****************************************************************
+	
 	@Then("^User should see '(.+)' showed to the cart$")
 	public void user_should_see_tem_s_showed_to_the_cart(String message)  {
 		System.out.println(message.length() + " Expected string length");
@@ -82,5 +84,19 @@ public class ShaiqLaptopsNoteBooksStepDef extends Base {
 		logger.info("actual equals to expected");
 		WebDriverUtility.wait(5000);
 	}
+	
+	//***************************************************************
+	
+	@When("^User click on heart icon to add ‘Sony VaIO’ laptop to wish list$")
+	public void user_click_on_heart_icon_to_add_Sony_VaIO_laptop_to_wish_list()  {
+		laptopNoteBook.clickOnSonyVaioWishList();
+		logger.info("User clicked on heart icon to add ‘Sony VaIO’ laptop to wish list");
+	}
+
+	@Then("^User should get a message ‘You must login or create an account to save Sony VAIO to your wish list!’$")
+	public void user_should_get_a_message_You_must_login_or_create_an_account_to_save_Sony_VAIO_to_your_wish_list() {
+	   
+	}
+
 
 }

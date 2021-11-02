@@ -1181,3 +1181,94 @@
 2021-08-09 18:48:47,171 [main] INFO logger_File - user clicked on login button
 2021-08-09 18:48:50,300 [main] INFO logger_File - user logged to myAccount Dashboard
 2021-08-09 18:49:01,296 [main] INFO logger_File - Edit your affiliate information from Cheque payment method to Bank Transfer   failed
+2021-08-29 19:15:01,408 [main] INFO logger_File - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2021-08-29 19:15:16,661 [main] INFO logger_File - Retail Website is opened
+2021-08-29 19:15:17,031 [main] INFO logger_File - User clicked on MyAccount
+2021-08-29 19:15:17,437 [main] INFO logger_File - User Clicked on Login
+2021-08-29 19:15:17,660 [main] INFO logger_File - user entered email
+2021-08-29 19:15:17,800 [main] INFO logger_File - user entered password
+2021-08-29 19:15:18,326 [main] INFO logger_File - user clicked on login button
+2021-08-29 19:15:21,473 [main] INFO logger_File - user logged to myAccount Dashboard
+2021-08-29 19:15:21,849 [main] INFO logger_File - User clicked on 'Register for an Affiliate Account'
+2021-08-29 19:15:22,972 [main] INFO logger_File - Register as an Affiliate user with Cheque Payment Method   failed
+2021-08-29 19:17:40,069 [main] INFO logger_File - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2021-08-29 19:17:46,639 [main] INFO logger_File - Retail Website is opened
+2021-08-29 19:17:47,013 [main] INFO logger_File - User clicked on MyAccount
+2021-08-29 19:17:47,409 [main] INFO logger_File - User Clicked on Login
+2021-08-29 19:17:47,661 [main] INFO logger_File - user entered email
+2021-08-29 19:17:47,793 [main] INFO logger_File - user entered password
+2021-08-29 19:17:48,349 [main] INFO logger_File - user clicked on login button
+2021-08-29 19:17:51,498 [main] INFO logger_File - user logged to myAccount Dashboard
+2021-08-29 19:17:51,867 [main] INFO logger_File - User clicked on 'Register for an Affiliate Account'
+2021-08-29 19:17:52,911 [main] INFO logger_File - Register as an Affiliate user with Cheque Payment Method   failed
+2021-08-29 19:22:50,032 [main] INFO logger_File - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2021-08-29 19:22:56,669 [main] INFO logger_File - Retail Website is opened
+2021-08-29 19:23:08,055 [main] INFO logger_File - Register as an Affiliate user with Cheque Payment Method   failed
+2021-08-29 19:24:49,525 [main] INFO logger_File - Scenario Register as an Affiliate user with Cheque Payment Method Started
+2021-08-29 19:24:55,659 [main] INFO logger_File - Retail Website is opened
+2021-08-29 19:24:56,033 [main] INFO logger_File - User clicked on MyAccount
+2021-08-29 19:24:56,410 [main] INFO logger_File - User Clicked on Login
+2021-08-29 19:24:56,628 [main] INFO logger_File - user entered email
+2021-08-29 19:24:56,760 [main] INFO logger_File - user entered password
+2021-08-29 19:24:57,303 [main] INFO logger_File - user clicked on login button
+2021-08-29 19:25:00,443 [main] INFO logger_File - user logged to myAccount Dashboard
+2021-08-29 19:25:00,976 [main] INFO logger_File - User clicked on 'Register for an Affiliate Account'
+2021-08-29 19:25:01,996 [main] INFO logger_File - Register as an Affiliate user with Cheque Payment Method   failed
+2021-09-01 21:56:06,764 [main] INFO logger_File - Scenario Login to MyAccount Started
+2021-09-01 21:56:17,127 [main] INFO logger_File - Login to MyAccount   undefined
+2021-09-01 21:56:17,165 [main] INFO logger_File - Scenario Login to MyAccount with Multiple users Started
+2021-09-01 21:56:21,113 [main] INFO logger_File - Login to MyAccount with Multiple users   undefined
+2021-09-01 21:56:21,132 [main] INFO logger_File - Scenario Login to MyAccount with Multiple users Started
+2021-09-01 21:56:24,637 [main] INFO logger_File - Login to MyAccount with Multiple users   undefined
+2021-09-01 21:56:24,655 [main] INFO logger_File - Scenario Login to MyAccount with Multiple users Started
+2021-09-01 21:56:28,947 [main] INFO logger_File - Login to MyAccount with Multiple users   undefined
+2021-09-07 15:31:53,142 [main] INFO logger_File - Scenario Login to MyAccount Started
+2021-09-07 15:32:07,075 [main] INFO logger_File - Login to MyAccount   undefined
+2021-09-09 21:10:54,760 [main] INFO logger_File - Scenario Login to MyAccount Started
+2021-09-09 21:11:09,316 [main] INFO logger_File - Retail Website is opened
+2021-09-09 21:11:10,098 [main] INFO logger_File - User clicked on MyAccount
+2021-09-09 21:11:10,578 [main] INFO logger_File - User Clicked on Login
+2021-09-09 21:11:10,808 [main] INFO logger_File - user entered email
+2021-09-09 21:11:10,928 [main] INFO logger_File - user entered password
+2021-09-09 21:11:11,848 [main] INFO logger_File - user clicked on login button
+2021-09-09 21:11:17,146 [main] INFO logger_File - user logged to myAccount Dashboard
+2021-09-09 21:11:17,980 [main] INFO logger_File - Login to MyAccount   passed
+2021-10-18 22:44:20,406 [main] INFO logger_File - Scenario Login to MyAccount Started
+2021-10-18 22:44:42,918 [main] INFO logger_File - Retail Website is opened
+2021-10-18 22:44:43,984 [main] INFO logger_File - User clicked on MyAccount
+2021-10-18 22:44:44,484 [main] INFO logger_File - User Clicked on Login
+2021-10-18 22:44:44,870 [main] INFO logger_File - user entered email
+2021-10-18 22:44:45,010 [main] INFO logger_File - user entered password
+2021-10-18 22:44:46,459 [main] INFO logger_File - user clicked on login button
+2021-10-18 22:44:51,624 [main] INFO logger_File - user logged to myAccount Dashboard
+2021-10-18 22:44:52,811 [main] INFO logger_File - Login to MyAccount   passed
+2021-10-26 02:21:37,699 [main] INFO logger_File - Scenario Login to MyAccount Started
+2021-10-26 02:21:51,854 [main] INFO logger_File - Retail Website is opened
+2021-10-26 02:21:52,314 [main] INFO logger_File - User clicked on MyAccount
+2021-10-26 02:21:52,846 [main] INFO logger_File - User Clicked on Login
+2021-10-26 02:21:53,098 [main] INFO logger_File - user entered email
+2021-10-26 02:21:53,328 [main] INFO logger_File - user entered password
+2021-10-26 02:21:54,229 [main] INFO logger_File - user clicked on login button
+2021-10-26 02:21:59,353 [main] INFO logger_File - user logged to myAccount Dashboard
+2021-10-26 02:22:00,438 [main] INFO logger_File - Login to MyAccount   passed
+2021-10-26 03:00:35,114 [main] INFO logger_File - Scenario Login to MyAccount Started
+2021-10-26 03:00:45,655 [main] INFO logger_File - Retail Website is opened
+2021-10-26 03:00:46,194 [main] INFO logger_File - User clicked on MyAccount
+2021-10-26 03:00:47,018 [main] INFO logger_File - User Clicked on Login
+2021-10-26 03:00:47,349 [main] INFO logger_File - user entered email
+2021-10-26 03:00:47,569 [main] INFO logger_File - user entered password
+2021-10-26 03:00:50,895 [main] INFO logger_File - user clicked on login button
+2021-10-26 03:00:56,070 [main] INFO logger_File - user logged to myAccount Dashboard
+2021-10-26 03:00:57,270 [main] INFO logger_File - Login to MyAccount   passed
+2021-10-27 23:49:06,181 [main] INFO logger_File - Scenario User add HP LP 3065  from Desktops tab to the cart Started
+2021-10-27 23:49:55,070 [main] INFO logger_File - User add HP LP 3065  from Desktops tab to the cart   failed
+2021-10-27 23:56:56,751 [main] INFO logger_File - Scenario User add Canon EOS 5D from Desktops tab to the cart Started
+2021-10-27 23:57:25,257 [main] INFO logger_File - Retail Website is opened
+2021-10-28 23:20:44,817 [main] INFO logger_File - Scenario Adding an item to Wish list Started
+2021-10-28 23:20:53,478 [main] INFO logger_File - Retail Website is opened
+2021-10-28 23:20:54,269 [main] INFO logger_File - User clicked on Laptop and Note books tab
+2021-10-28 23:20:56,331 [main] INFO logger_File - User clicked on show all laptop and NoteBook options
+2021-10-28 23:20:57,693 [main] INFO logger_File - Adding an item to Wish list   undefined
+2021-11-01 21:10:13,714 [main] INFO logger_File - Scenario Execute all information from Actor Table Started
+2021-11-01 21:10:22,243 [main] INFO logger_File - Connection is established between JDBC and DB
+2021-11-01 21:10:24,617 [main] INFO logger_File - Execute all information from Actor Table   failed

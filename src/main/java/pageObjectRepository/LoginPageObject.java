@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import core.Base;
-import utilites.WebDriverUtility;
+import utilities.WebDriverUtility;
 
 public class LoginPageObject extends Base {
 	
@@ -19,6 +19,7 @@ public class LoginPageObject extends Base {
 	//PageFactory provides @FindBy annotation to find UI elements 
 	// driver.findElement(by.id('123)); 
 	// @FindBy(id ='123')
+	
 	@FindBy(xpath = "//span[contains(text(),'My Account')]")
 	private WebElement myAccount;
 	
@@ -88,6 +89,7 @@ public class LoginPageObject extends Base {
 	
 	public void clickOnMyAccount() {
 		WebDriverUtility.clickOnElement(myAccount);
+		
 	}
 	
 	public void clickOnLogin() {
@@ -100,12 +102,41 @@ public class LoginPageObject extends Base {
 	}
 	
 	public void enterPassword(String password) {
+		WebDriverUtility.clearText(passwordField);
 		WebDriverUtility.enterValue(passwordField, password);
 	}
 	
 	public void clickOnLoginButton() {
 		WebDriverUtility.clickOnElement(loginButton);
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	// Register wit Affiliate Account
 	public void clickOnRegisterAffiliateAccount() {
@@ -172,6 +203,8 @@ public class LoginPageObject extends Base {
 		WebDriverUtility.enterValue(accountNumber, aNumber);
 	}
 	
+	
+
 	
 	
 	// Edit Account information

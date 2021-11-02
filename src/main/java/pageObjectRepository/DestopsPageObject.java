@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import core.Base;
-import utilites.WebDriverUtility;
+import utilities.WebDriverUtility;
 
 public class DestopsPageObject extends Base {
 

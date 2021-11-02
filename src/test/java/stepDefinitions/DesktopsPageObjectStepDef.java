@@ -8,7 +8,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pageObjectRepository.DestopsPageObject;
 import pageObjectRepository.HomePageObject;
-import utilites.WebDriverUtility;
+import utilities.WebDriverUtility;
 
 public class DesktopsPageObjectStepDef extends Base {
 

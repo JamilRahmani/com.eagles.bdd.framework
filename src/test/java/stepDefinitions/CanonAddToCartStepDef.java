@@ -6,7 +6,7 @@ import core.Base;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pageObjectRepository.DestopsPageObject;
-import utilites.WebDriverUtility;
+import utilities.WebDriverUtility;
 
 public class CanonAddToCartStepDef extends Base{
 	

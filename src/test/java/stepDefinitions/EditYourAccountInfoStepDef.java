@@ -10,7 +10,7 @@ import cucumber.api.DataTable;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pageObjectRepository.LoginPageObject;
-import utilites.WebDriverUtility;
+import utilities.WebDriverUtility;
 
 public class EditYourAccountInfoStepDef extends Base{
 	
