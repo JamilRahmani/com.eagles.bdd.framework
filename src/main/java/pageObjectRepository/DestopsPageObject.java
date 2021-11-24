@@ -434,7 +434,7 @@ public class DestopsPageObject extends Base {
 	private WebElement Quantity;
 	@FindBy(id = "button-cart")
 	private WebElement AddToCartLastTime;
-	@FindBy(id = "//div[contains(text(),'Success: You have added ')]")
+	@FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
 	private WebElement successMessageIsDisplayed;
 	@FindBy(id = "input-option226")
 	private WebElement selectRed;
@@ -473,6 +473,10 @@ public class DestopsPageObject extends Base {
 		WebDriverUtility.screenShot();
 	}
 	
+	
+	
+	
+	
 	// Adding HP Laptop to Cart 
 	public void clickOnAddToCartHPLP3065() {
 		WebDriverUtility.clickOnElement(hpLP3065DAddToCart);
@@ -492,18 +496,24 @@ public class DestopsPageObject extends Base {
 	}
 	
 	
+	
+	
+	
 	// Add to cart Canon
 	public void clickAddToCartCanon() {
 		WebDriverUtility.clickOnElement(canonEOS5DAddToCart);
 	}
 	
 	public void userSelectRedColorFromDropDown() {
+		
 		WebDriverUtility.clearTextUsingSendKeys(selectRed);
 	}
 
 	public void clickOnCanon() {
 		WebDriverUtility.clickOnElement(canonEOS5DImage);
 	}
+	
+	
 	
 	// Review Methods For Canon
 	public void clickOnReviewLink() {
@@ -542,7 +552,8 @@ public class DestopsPageObject extends Base {
 				WebDriverUtility.clickOnElement(ratingStar3);
 			}else if (!ratingStar4.isSelected()) {
 				WebDriverUtility.clickOnElement(ratingStar4);
-			}else if (!ratingStar5.isSelected()) {
+			}
+			else if (!ratingStar5.isSelected()) {
 				WebDriverUtility.clickOnElement(ratingStar5);
 			
 			}		

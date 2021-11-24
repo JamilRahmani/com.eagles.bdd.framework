@@ -10,7 +10,6 @@ Background:
 @login @RegressionTest @SmokeTest
 Scenario: Login to MyAccount
  
- 	
 	When User click on MyAccount  
 	And  User click on Login 
 	And User enter userName 'eagles@tekschool.us' and password 'eagles'
@@ -23,7 +22,6 @@ Scenario: Login to MyAccount
   # Below is the tag @test
 @LoginMultipleAccount
 Scenario Outline: Login to MyAccount with Multiple users
-	
 	
 	When User click on MyAccount
 	And  User click on Login

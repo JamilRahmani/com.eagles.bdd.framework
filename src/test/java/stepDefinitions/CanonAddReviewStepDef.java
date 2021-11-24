@@ -52,8 +52,8 @@ public class CanonAddReviewStepDef extends Base {
 	}
 
 	@Then("^User should see a message with ‘Thank you for your review\\. It has been submitted to the webmaster for approval\\.”$")
-	public void user_should_see_a_message_with_Thank_you_for_your_review_It_has_been_submitted_to_the_webmaster_for_approval()
-			throws Throwable {
+	public void user_should_see_a_message_with_Thank_you_for_your_review_It_has_been_submitted_to_the_webmaster_for_approval() {
+		
 		String expectedMessage = "Thank you for your review. It has been submitted to the webmaster for approval.";
 		String actualMessage = review.UserShouldSeeReviewMessage();
 

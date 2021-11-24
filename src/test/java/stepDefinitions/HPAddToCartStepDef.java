@@ -24,17 +24,17 @@ public class HPAddToCartStepDef extends Base {
 		logger.info("User passed the select quantity");
 	}
 
-//	@When("^User click add to Cart button$")
-//	public void user_click_add_to_Cart_button() throws InterruptedException {
-//		hp.clickOnAddToCartLastTime();
-//		logger.info("User clicked on ADD TO CART");
-//		Thread.sleep(2000);
-//	}
+	@When("^user click add to Cart button$")
+	public void user_click_add_to_Cart_button() throws InterruptedException {
+		hp.clickOnAddToCartLastTime();
+		logger.info("User clicked on ADD TO CART");
+		Thread.sleep(2000);
+	}
 
-	@Then("^User should see a message ‘Success: you have added HP LP (\\d+) to your Shopping cart!’$")
-	public void user_should_see_a_message_Success_you_have_added_HP_LP_to_your_Shopping_cart(int arg1) {
+	@Then("^User should see a message ‘Success: you have added HP LP to your Shopping cart!’$")
+	public void user_should_see_a_message_Success_you_have_added_HP_LP_to_your_Shopping_cart() {
 
-		String actualMessage = "Success: you have added HP LP 3065 to your Shopping cart!";
+		String actualMessage = "Success: you have added HP LP to your Shopping cart!";
 		String expectedMessage = hp.UserSeeSuccessMessage();
 		
 		Assert.assertEquals(expectedMessage.substring(0, 7), actualMessage.substring(0, 7));

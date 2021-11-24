@@ -1,6 +1,7 @@
 package pageObjectRepository;
 
 import org.openqa.selenium.WebElement;
+
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -42,7 +43,7 @@ public class HomePageObject extends Base {
 	@FindBy(xpath = "//i[@class='fa fa-user']")
 	private WebElement myAccountSign;
 	// My Account
-	@FindBy(xpath = "//span[contains(text(),'My Account')]")
+	@FindBy(name = "//span[contains(text(),'My Account')]")
 	private WebElement myAccountHeader;
 	// Login
 	@FindBy(xpath = "//a[text()='Login']")

@@ -1272,3 +1272,225 @@
 2021-11-01 21:10:13,714 [main] INFO logger_File - Scenario Execute all information from Actor Table Started
 2021-11-01 21:10:22,243 [main] INFO logger_File - Connection is established between JDBC and DB
 2021-11-01 21:10:24,617 [main] INFO logger_File - Execute all information from Actor Table   failed
+2021-11-09 15:11:33,803 [main] INFO logger_File - Scenario User add a review to Canon EOS 5D item inDesktops tab Started
+2021-11-09 15:12:03,606 [main] INFO logger_File - Retail Website is opened
+2021-11-09 15:12:04,665 [main] INFO logger_File - user click on Desktops tab
+2021-11-09 15:12:05,334 [main] INFO logger_File - user click on show all Desktops options
+2021-11-09 15:12:07,226 [main] INFO logger_File - User clicked on Canon
+2021-11-09 15:12:07,316 [main] INFO logger_File - User clicked on Review Link
+2021-11-09 15:12:17,449 [main] INFO logger_File - User Filled the review information
+2021-11-09 15:12:17,561 [main] INFO logger_File - User clicked on Continue Button
+2021-11-09 15:12:18,112 [main] INFO logger_File - Success message displayed
+2021-11-09 15:12:22,895 [main] INFO logger_File - User add a review to Canon EOS 5D item inDesktops tab   passed
+2021-11-09 15:13:46,578 [main] INFO logger_File - Scenario User add a review to Canon EOS 5D item inDesktops tab Started
+2021-11-09 15:13:53,972 [main] INFO logger_File - Retail Website is opened
+2021-11-09 15:13:54,526 [main] INFO logger_File - user click on Desktops tab
+2021-11-09 15:13:55,476 [main] INFO logger_File - user click on show all Desktops options
+2021-11-09 15:13:57,131 [main] INFO logger_File - User clicked on Canon
+2021-11-09 15:13:57,246 [main] INFO logger_File - User clicked on Review Link
+2021-11-09 15:14:08,034 [main] INFO logger_File - User add a review to Canon EOS 5D item inDesktops tab   failed
+2021-11-09 15:19:51,157 [main] INFO logger_File - Scenario User add a review to Canon EOS 5D item inDesktops tab Started
+2021-11-09 15:20:01,062 [main] INFO logger_File - Retail Website is opened
+2021-11-09 15:20:01,578 [main] INFO logger_File - user click on Desktops tab
+2021-11-09 15:20:03,177 [main] INFO logger_File - user click on show all Desktops options
+2021-11-09 15:20:07,018 [main] INFO logger_File - User clicked on Canon
+2021-11-09 15:20:07,121 [main] INFO logger_File - User clicked on Review Link
+2021-11-09 15:20:16,810 [main] INFO logger_File - User Filled the review information
+2021-11-09 15:20:16,899 [main] INFO logger_File - User clicked on Continue Button
+2021-11-09 15:20:17,408 [main] INFO logger_File - Success message displayed
+2021-11-09 15:20:22,258 [main] INFO logger_File - User add a review to Canon EOS 5D item inDesktops tab   passed
+2021-11-09 15:31:23,616 [main] INFO logger_File - Scenario Add and Remove a Mac book from Cart Started
+2021-11-09 15:31:33,641 [main] INFO logger_File - Retail Website is opened
+2021-11-09 15:31:34,675 [main] INFO logger_File - User clicked on Laptop and Note books tab
+2021-11-09 15:31:35,619 [main] INFO logger_File - User clicked on show all laptop and NoteBook options
+2021-11-09 15:31:37,441 [main] INFO logger_File - User clicked on MacBook
+2021-11-09 15:31:40,813 [main] INFO logger_File - User clicked add to cart Button
+2021-11-09 15:31:50,700 [main] INFO logger_File - Add and Remove a Mac book from Cart   undefined
+2021-11-09 15:34:24,691 [main] INFO logger_File - Scenario Add and Remove a Mac book from Cart Started
+2021-11-09 15:34:32,452 [main] INFO logger_File - Retail Website is opened
+2021-11-09 15:34:33,007 [main] INFO logger_File - User clicked on Laptop and Note books tab
+2021-11-09 15:34:34,519 [main] INFO logger_File - User clicked on show all laptop and NoteBook options
+2021-11-09 15:34:37,234 [main] INFO logger_File - User clicked on MacBook
+2021-11-09 15:34:40,511 [main] INFO logger_File - User clicked add to cart Button
+2021-11-09 15:34:46,745 [main] INFO logger_File - Add and Remove a Mac book from Cart   failed
+2021-11-09 15:36:34,974 [main] INFO logger_File - Scenario Add and Remove a Mac book from Cart Started
+2021-11-09 15:36:41,200 [main] INFO logger_File - Retail Website is opened
+2021-11-09 15:36:41,927 [main] INFO logger_File - User clicked on Laptop and Note books tab
+2021-11-09 15:36:44,044 [main] INFO logger_File - User clicked on show all laptop and NoteBook options
+2021-11-09 15:36:46,405 [main] INFO logger_File - User clicked on MacBook
+2021-11-09 15:36:49,796 [main] INFO logger_File - User clicked add to cart Button
+2021-11-09 15:36:59,664 [main] INFO logger_File - Add and Remove a Mac book from Cart   failed
+2021-11-09 15:38:07,000 [main] INFO logger_File - Scenario Add and Remove a Mac book from Cart Started
+2021-11-09 15:38:13,116 [main] INFO logger_File - Retail Website is opened
+2021-11-09 15:38:13,985 [main] INFO logger_File - User clicked on Laptop and Note books tab
+2021-11-09 15:38:14,630 [main] INFO logger_File - User clicked on show all laptop and NoteBook options
+2021-11-09 15:38:16,399 [main] INFO logger_File - User clicked on MacBook
+2021-11-09 15:38:19,700 [main] INFO logger_File - User clicked add to cart Button
+2021-11-09 15:38:29,699 [main] INFO logger_File - Add and Remove a Mac book from Cart   failed
+2021-11-09 15:38:58,735 [main] INFO logger_File - Scenario Add and Remove a Mac book from Cart Started
+2021-11-09 15:39:05,497 [main] INFO logger_File - Retail Website is opened
+2021-11-09 15:39:05,958 [main] INFO logger_File - User clicked on Laptop and Note books tab
+2021-11-09 15:39:06,561 [main] INFO logger_File - User clicked on show all laptop and NoteBook options
+2021-11-09 15:39:08,463 [main] INFO logger_File - User clicked on MacBook
+2021-11-09 15:39:11,881 [main] INFO logger_File - User clicked add to cart Button
+2021-11-09 15:39:21,819 [main] INFO logger_File - Add and Remove a Mac book from Cart   failed
+2021-11-09 15:40:53,547 [main] INFO logger_File - Scenario Add and Remove a Mac book from Cart Started
+2021-11-09 15:41:01,265 [main] INFO logger_File - Retail Website is opened
+2021-11-09 15:41:01,989 [main] INFO logger_File - User clicked on Laptop and Note books tab
+2021-11-09 15:41:02,559 [main] INFO logger_File - User clicked on show all laptop and NoteBook options
+2021-11-09 15:41:04,242 [main] INFO logger_File - User clicked on MacBook
+2021-11-09 15:41:07,477 [main] INFO logger_File - User clicked add to cart Button
+2021-11-09 15:41:17,550 [main] INFO logger_File - Add and Remove a Mac book from Cart   failed
+2021-11-16 23:36:48,536 [main] INFO logger_File - Scenario User add HP LP 3065  from Desktops tab to the cart Started
+2021-11-16 23:37:05,788 [main] INFO logger_File - Retail Website is opened
+2021-11-16 23:37:07,200 [main] INFO logger_File - user click on Desktops tab
+2021-11-16 23:37:09,137 [main] INFO logger_File - User add HP LP 3065  from Desktops tab to the cart   undefined
+2021-11-16 23:37:49,695 [main] INFO logger_File - Scenario User add HP LP 3065  from Desktops tab to the cart Started
+2021-11-16 23:38:03,357 [main] INFO logger_File - Retail Website is opened
+2021-11-16 23:38:04,445 [main] INFO logger_File - user click on Desktops tab
+2021-11-16 23:38:05,717 [main] INFO logger_File - user click on show all Desktops options
+2021-11-16 23:38:05,924 [main] INFO logger_File - User clicked on ADD TO CART
+2021-11-16 23:38:08,196 [main] INFO logger_File - User passed the select quantity
+2021-11-16 23:38:10,677 [main] INFO logger_File - User add HP LP 3065  from Desktops tab to the cart   failed
+2021-11-17 00:10:02,826 [main] INFO logger_File - Scenario User add HP LP 3065  from Desktops tab to the cart Started
+2021-11-17 00:10:12,593 [main] INFO logger_File - Retail Website is opened
+2021-11-17 00:10:13,303 [main] INFO logger_File - user click on Desktops tab
+2021-11-17 00:10:14,664 [main] INFO logger_File - user click on show all Desktops options
+2021-11-17 00:10:14,788 [main] INFO logger_File - User clicked on ADD TO CART
+2021-11-17 00:10:19,049 [main] INFO logger_File - User passed the select quantity
+2021-11-17 00:10:19,414 [main] INFO logger_File - User clicked on ADD TO CART
+2021-11-17 00:10:36,592 [main] INFO logger_File - User add HP LP 3065  from Desktops tab to the cart   failed
+2021-11-17 00:11:23,299 [main] INFO logger_File - Scenario User add HP LP 3065  from Desktops tab to the cart Started
+2021-11-17 00:11:34,097 [main] INFO logger_File - Retail Website is opened
+2021-11-17 00:11:34,915 [main] INFO logger_File - user click on Desktops tab
+2021-11-17 00:11:37,677 [main] INFO logger_File - user click on show all Desktops options
+2021-11-17 00:11:38,006 [main] INFO logger_File - User clicked on ADD TO CART
+2021-11-17 00:11:43,622 [main] INFO logger_File - User passed the select quantity
+2021-11-17 00:11:44,136 [main] INFO logger_File - User clicked on ADD TO CART
+2021-11-17 00:11:50,968 [main] INFO logger_File - User add HP LP 3065  from Desktops tab to the cart   failed
+2021-11-17 00:14:48,827 [main] INFO logger_File - Scenario User add HP LP 3065  from Desktops tab to the cart Started
+2021-11-17 00:14:59,979 [main] INFO logger_File - Retail Website is opened
+2021-11-17 00:15:00,794 [main] INFO logger_File - user click on Desktops tab
+2021-11-17 00:15:06,640 [main] INFO logger_File - user click on show all Desktops options
+2021-11-17 00:15:06,925 [main] INFO logger_File - User clicked on ADD TO CART
+2021-11-17 00:15:13,487 [main] INFO logger_File - User passed the select quantity
+2021-11-17 00:15:16,887 [main] INFO logger_File - User add HP LP 3065  from Desktops tab to the cart   failed
+2021-11-17 00:15:29,104 [main] INFO logger_File - Scenario User add HP LP 3065  from Desktops tab to the cart Started
+2021-11-17 00:15:40,605 [main] INFO logger_File - Retail Website is opened
+2021-11-17 00:15:41,338 [main] INFO logger_File - user click on Desktops tab
+2021-11-17 00:15:45,322 [main] INFO logger_File - user click on show all Desktops options
+2021-11-17 00:15:45,963 [main] INFO logger_File - User clicked on ADD TO CART
+2021-11-17 00:15:52,326 [main] INFO logger_File - User passed the select quantity
+2021-11-17 00:15:52,653 [main] INFO logger_File - User clicked on ADD TO CART
+2021-11-17 00:16:09,571 [main] INFO logger_File - User add HP LP 3065  from Desktops tab to the cart   failed
+2021-11-17 00:31:02,803 [main] INFO logger_File - Scenario User add HP LP 3065  from Desktops tab to the cart Started
+2021-11-17 00:31:17,364 [main] INFO logger_File - Retail Website is opened
+2021-11-17 00:31:17,934 [main] INFO logger_File - user click on Desktops tab
+2021-11-17 00:31:23,251 [main] INFO logger_File - user click on show all Desktops options
+2021-11-17 00:31:23,581 [main] INFO logger_File - User clicked on ADD TO CART
+2021-11-17 00:31:30,263 [main] INFO logger_File - User passed the select quantity
+2021-11-17 00:31:30,909 [main] INFO logger_File - User clicked on ADD TO CART
+2021-11-17 00:31:33,268 [main] INFO logger_File - Success message displayed
+2021-11-17 00:31:38,199 [main] INFO logger_File - User add HP LP 3065  from Desktops tab to the cart   passed
+2021-11-17 22:51:33,862 [main] INFO logger_File - Scenario User add Canon EOS 5D from Desktops tab to the cart Started
+2021-11-17 22:51:50,660 [main] INFO logger_File - Retail Website is opened
+2021-11-17 22:51:51,567 [main] INFO logger_File - user click on Desktops tab
+2021-11-17 22:51:53,401 [main] INFO logger_File - User add Canon EOS 5D from Desktops tab to the cart   undefined
+2021-11-17 22:52:37,718 [main] INFO logger_File - Scenario User add Canon EOS 5D from Desktops tab to the cart Started
+2021-11-17 22:52:50,195 [main] INFO logger_File - Retail Website is opened
+2021-11-17 22:52:51,587 [main] INFO logger_File - user click on Desktops tab
+2021-11-17 22:52:52,762 [main] INFO logger_File - user click on show all Desktops options
+2021-11-17 22:52:53,040 [main] INFO logger_File - Use clicked on ADD TO CART
+2021-11-17 22:52:56,637 [main] INFO logger_File - User add Canon EOS 5D from Desktops tab to the cart   failed
+2021-11-17 22:54:09,509 [main] INFO logger_File - Scenario User add Canon EOS 5D from Desktops tab to the cart Started
+2021-11-17 22:54:19,383 [main] INFO logger_File - Retail Website is opened
+2021-11-17 22:54:20,498 [main] INFO logger_File - user click on Desktops tab
+2021-11-17 22:54:21,735 [main] INFO logger_File - user click on show all Desktops options
+2021-11-17 22:54:22,069 [main] INFO logger_File - Use clicked on ADD TO CART
+2021-11-17 22:54:26,810 [main] INFO logger_File - Use selected RED color
+2021-11-17 22:54:29,018 [main] INFO logger_File - User passed the select quantity
+2021-11-17 22:54:29,153 [main] INFO logger_File - User clicked add to cart Button
+2021-11-17 22:54:39,193 [main] INFO logger_File - User add Canon EOS 5D from Desktops tab to the cart   failed
+2021-11-17 22:56:12,774 [main] INFO logger_File - Scenario User add Canon EOS 5D from Desktops tab to the cart Started
+2021-11-17 22:56:20,874 [main] INFO logger_File - Retail Website is opened
+2021-11-17 22:56:21,635 [main] INFO logger_File - user click on Desktops tab
+2021-11-17 22:56:22,592 [main] INFO logger_File - user click on show all Desktops options
+2021-11-17 22:56:22,792 [main] INFO logger_File - Use clicked on ADD TO CART
+2021-11-17 22:56:25,832 [main] INFO logger_File - Use selected RED color
+2021-11-17 22:56:28,081 [main] INFO logger_File - User passed the select quantity
+2021-11-17 22:56:28,259 [main] INFO logger_File - User clicked add to cart Button
+2021-11-17 22:56:38,232 [main] INFO logger_File - User add Canon EOS 5D from Desktops tab to the cart   failed
+2021-11-17 23:20:47,513 [main] INFO logger_File - Scenario Login to MyAccount Started
+2021-11-17 23:20:54,452 [main] INFO logger_File - Retail Website is opened
+2021-11-17 23:20:55,031 [main] INFO logger_File - User clicked on MyAccount
+2021-11-17 23:20:55,768 [main] INFO logger_File - User Clicked on Login
+2021-11-17 23:20:56,035 [main] INFO logger_File - user entered email
+2021-11-17 23:20:56,244 [main] INFO logger_File - user entered password
+2021-11-17 23:20:57,242 [main] INFO logger_File - user clicked on login button
+2021-11-17 23:21:02,514 [main] INFO logger_File - user logged to myAccount Dashboard
+2021-11-17 23:21:04,746 [main] INFO logger_File - Login to MyAccount   passed
+2021-11-17 23:37:04,394 [main] INFO logger_File - Scenario User add Canon EOS 5D from Desktops tab to the cart Started
+2021-11-17 23:37:11,518 [main] INFO logger_File - Retail Website is opened
+2021-11-17 23:37:12,104 [main] INFO logger_File - user click on Desktops tab
+2021-11-17 23:37:13,147 [main] INFO logger_File - user click on show all Desktops options
+2021-11-17 23:37:13,273 [main] INFO logger_File - Use clicked on ADD TO CART
+2021-11-17 23:37:15,625 [main] INFO logger_File - Use selected RED color
+2021-11-17 23:37:17,803 [main] INFO logger_File - User passed the select quantity
+2021-11-17 23:37:17,925 [main] INFO logger_File - User clicked add to cart Button
+2021-11-17 23:37:27,870 [main] INFO logger_File - User add Canon EOS 5D from Desktops tab to the cart   failed
+2021-11-17 23:41:03,468 [main] INFO logger_File - Scenario User add Canon EOS 5D from Desktops tab to the cart Started
+2021-11-17 23:41:12,876 [main] INFO logger_File - Retail Website is opened
+2021-11-17 23:41:13,258 [main] INFO logger_File - user click on Desktops tab
+2021-11-17 23:41:17,350 [main] INFO logger_File - user click on show all Desktops options
+2021-11-17 23:41:17,483 [main] INFO logger_File - Use clicked on ADD TO CART
+2021-11-17 23:41:23,123 [main] INFO logger_File - Use selected RED color
+2021-11-17 23:41:25,350 [main] INFO logger_File - User passed the select quantity
+2021-11-17 23:41:25,457 [main] INFO logger_File - User clicked add to cart Button
+2021-11-17 23:41:31,609 [main] INFO logger_File - User add Canon EOS 5D from Desktops tab to the cart   undefined
+2021-11-17 23:42:40,709 [main] INFO logger_File - Scenario User add Canon EOS 5D from Desktops tab to the cart Started
+2021-11-17 23:42:54,225 [main] INFO logger_File - Retail Website is opened
+2021-11-17 23:42:54,652 [main] INFO logger_File - user click on Desktops tab
+2021-11-17 23:42:59,209 [main] INFO logger_File - user click on show all Desktops options
+2021-11-17 23:42:59,536 [main] INFO logger_File - Use clicked on ADD TO CART
+2021-11-17 23:43:07,390 [main] INFO logger_File - Use selected RED color
+2021-11-17 23:43:09,662 [main] INFO logger_File - User passed the select quantity
+2021-11-17 23:43:09,764 [main] INFO logger_File - User clicked add to cart Button
+2021-11-17 23:43:26,176 [main] INFO logger_File - User add Canon EOS 5D from Desktops tab to the cart   failed
+2021-11-23 16:57:27,431 [main] INFO logger_File - Scenario Add and Remove a Mac book from Cart Started
+2021-11-23 16:57:59,649 [main] INFO logger_File - Retail Website is opened
+2021-11-23 16:58:00,564 [main] INFO logger_File - User clicked on Laptop and Note books tab
+2021-11-23 16:58:01,277 [main] INFO logger_File - User clicked on show all laptop and NoteBook options
+2021-11-23 16:58:04,072 [main] INFO logger_File - User clicked on MacBook
+2021-11-23 16:58:07,386 [main] INFO logger_File - User clicked add to cart Button
+2021-11-23 16:58:17,501 [main] INFO logger_File - Add and Remove a Mac book from Cart   undefined
+2021-11-23 17:00:32,703 [main] INFO logger_File - Scenario Add and Remove a Mac book from Cart Started
+2021-11-23 17:00:40,690 [main] INFO logger_File - Retail Website is opened
+2021-11-23 17:00:41,599 [main] INFO logger_File - User clicked on Laptop and Note books tab
+2021-11-23 17:00:42,534 [main] INFO logger_File - User clicked on show all laptop and NoteBook options
+2021-11-23 17:00:44,379 [main] INFO logger_File - User clicked on MacBook
+2021-11-23 17:00:47,799 [main] INFO logger_File - User clicked add to cart Button
+2021-11-23 17:00:53,906 [main] INFO logger_File - Add and Remove a Mac book from Cart   failed
+2021-11-23 17:03:06,191 [main] INFO logger_File - Scenario Add and Remove a Mac book from Cart Started
+2021-11-23 17:03:16,869 [main] INFO logger_File - Retail Website is opened
+2021-11-23 17:03:17,615 [main] INFO logger_File - User clicked on Laptop and Note books tab
+2021-11-23 17:03:20,915 [main] INFO logger_File - User clicked on show all laptop and NoteBook options
+2021-11-23 17:03:24,610 [main] INFO logger_File - User clicked on MacBook
+2021-11-23 17:03:27,994 [main] INFO logger_File - User clicked add to cart Button
+2021-11-23 17:03:33,122 [main] INFO logger_File - actual equals to expected
+2021-11-23 17:03:33,384 [main] INFO logger_File - actual equals to expected
+2021-11-23 17:03:33,456 [main] INFO logger_File - User clicked on cart options
+2021-11-23 17:03:33,554 [main] INFO logger_File - User clicked X red button to remove item from cart
+2021-11-23 17:03:38,840 [main] INFO logger_File - actual equals to expected
+2021-11-23 17:03:44,690 [main] INFO logger_File - Add and Remove a Mac book from Cart   passed
+2021-11-23 17:06:54,283 [main] INFO logger_File - Scenario Add and Remove a Mac book from Cart Started
+2021-11-23 17:07:01,199 [main] INFO logger_File - Retail Website is opened
+2021-11-23 17:07:01,903 [main] INFO logger_File - User clicked on Laptop and Note books tab
+2021-11-23 17:07:03,109 [main] INFO logger_File - User clicked on show all laptop and NoteBook options
+2021-11-23 17:07:05,186 [main] INFO logger_File - User clicked on MacBook
+2021-11-23 17:07:08,662 [main] INFO logger_File - User clicked add to cart Button
+2021-11-23 17:07:13,740 [main] INFO logger_File - actual equals to expected
+2021-11-23 17:07:13,968 [main] INFO logger_File - actual equals to expected
+2021-11-23 17:07:14,047 [main] INFO logger_File - User clicked on cart options
+2021-11-23 17:07:14,149 [main] INFO logger_File - User clicked X red button to remove item from cart
+2021-11-23 17:07:19,459 [main] INFO logger_File - actual equals to expected
+2021-11-23 17:07:25,333 [main] INFO logger_File - Add and Remove a Mac book from Cart   passed

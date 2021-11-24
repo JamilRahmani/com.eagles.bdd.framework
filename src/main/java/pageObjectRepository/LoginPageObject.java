@@ -20,6 +20,7 @@ public class LoginPageObject extends Base {
 	// driver.findElement(by.id('123)); 
 	// @FindBy(id ='123')
 	
+	
 	@FindBy(xpath = "//span[contains(text(),'My Account')]")
 	private WebElement myAccount;
 	
@@ -34,7 +35,9 @@ public class LoginPageObject extends Base {
 	
 	@FindBy(xpath ="//input[@value='Login']")
 	private WebElement loginButton;
-	
+	@FindBy(xpath = "//h2[text()='My Account']")
+	private WebElement myAccounttext;
+
 	@FindBy(xpath ="//a[contains(text(),'Register for an affiliate account')]")
 	private WebElement registerAffiliateAccount;
 	
@@ -110,26 +113,14 @@ public class LoginPageObject extends Base {
 		WebDriverUtility.clickOnElement(loginButton);
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	public boolean myAccountTextIsPresent() {
+		if(myAccounttext.isDisplayed()) 
+			return true;
+		else
+			return false;
+			
+		
+	}
 	
 	
 	

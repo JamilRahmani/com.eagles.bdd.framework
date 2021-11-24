@@ -7,9 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 import core.Base;
 import utilities.WebDriverUtility;
 
-public class ShaiqLaptopsNoteBooksPageObject extends Base {
+public class JamilLaptopsNoteBooksPageObject extends Base {
 
-	public ShaiqLaptopsNoteBooksPageObject() {
+	public JamilLaptopsNoteBooksPageObject() {
 		PageFactory.initElements(driver, this);
 	}
 
@@ -223,6 +223,7 @@ public class ShaiqLaptopsNoteBooksPageObject extends Base {
 		return actual;
 
 	}
+
 
 	public void clickOnCompareLink() {
 		WebDriverUtility.clickOnElement(ComparisonLink);

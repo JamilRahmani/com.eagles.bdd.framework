@@ -57,6 +57,7 @@ public class LoginTestStepDef extends Base {
 
 	@Then("^User should be logged in to myAccount Dashboard$")
 	public void user_should_be_logged_in_to_myAccount_Dashboard() {
+		login.myAccountTextIsPresent();
 		WebDriverUtility.wait(5000);
 		WebDriverUtility.screenShot();
 		logger.info("user logged to myAccount Dashboard");

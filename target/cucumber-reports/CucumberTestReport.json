@@ -1,12 +1,33 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3359221600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Retail Website",
+            "match": {
+              "location": "LoginTestStepDef.user_is_on_Retail_Website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
       {
         "before": [
           {
             "result": {
-              "duration": 6195373600,
+              "duration": 4181398400,
               "status": "passed"
             },
             "match": {
@@ -14,14 +35,14 @@
             }
           }
         ],
-        "line": 5,
-        "name": "Execute all information from Actor Table",
+        "line": 9,
+        "name": "Add and Remove a Mac book from Cart",
         "description": "",
-        "id": "database-sql-query-feature-scenarios;execute-all-information-from-actor-table",
+        "id": "laptop-\u0026notebooks-on-retail-website;add-and-remove-a-mac-book-from-cart",
         "after": [
           {
             "result": {
-              "duration": 2333754500,
+              "duration": 863868700,
               "status": "passed"
             },
             "match": {
@@ -34,48 +55,143 @@
         "steps": [
           {
             "result": {
-              "duration": 2404036600,
+              "duration": 139087700,
               "status": "passed"
             },
-            "line": 6,
-            "name": "User connects to PostgreSql Database",
+            "line": 11,
+            "name": "User click on Laptop \u0026NoteBook tab",
             "match": {
-              "location": "DataBaseStepDefination.user_connects_to_postgreSQL_database()"
+              "location": "JamilLaptopsNoteBooksStepDef.user_click_on_Laptop_NoteBook_tab()"
             },
-            "keyword": "Given "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 11160600,
-              "error_message": "java.lang.NullPointerException\r\n\tat utilities.DataBaseUtility.runQuery(DataBaseUtility.java:66)\r\n\tat stepDefinitions.DataBaseStepDefination.user_sends_query(DataBaseStepDefination.java:22)\r\n\tat ✽.When User sends querry \u0027select * from public.city where country_id \u003d 44 order by city\u0027(Features/DataBaseFeature.feature:7)\r\n",
-              "status": "failed"
+              "duration": 1203111500,
+              "status": "passed"
             },
-            "line": 7,
-            "name": "User sends querry \u0027select * from public.city where country_id \u003d 44 order by city\u0027",
+            "line": 12,
+            "name": "User click on Show all Laptop \u0026NoteBook option",
+            "match": {
+              "location": "JamilLaptopsNoteBooksStepDef.user_click_on_Show_all_Laptop_NoteBook_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5447847800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on MacBook  item",
+            "match": {
+              "location": "JamilLaptopsNoteBooksStepDef.user_click_on_MacBook_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5105091500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click add to Cart button",
+            "match": {
+              "location": "JamilLaptopsNoteBooksStepDef.user_click_add_to_Cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231040900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should see a message ‘Success: You have added MacBook to your shopping cart!’",
+            "match": {
+              "location": "JamilLaptopsNoteBooksStepDef.user_should_see_a_message_Success_You_have_added_MacBook_to_your_shopping_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66571600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should see \u00271 tem(s)-602.00\u0027 showed to the cart",
             "match": {
               "arguments": [
                 {
-                  "val": "select * from public.city where country_id \u003d 44 order by city",
-                  "offset": 19
+                  "val": "1 tem(s)-602.00",
+                  "offset": 17
                 }
               ],
-              "location": "DataBaseStepDefination.user_sends_query(String)"
+              "location": "JamilLaptopsNoteBooksStepDef.user_should_see_tem_s_showed_to_the_cart(String)"
             },
-            "keyword": "When "
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78886000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on cart option",
+            "match": {
+              "location": "JamilLaptopsNoteBooksStepDef.user_click_on_cart_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5361133700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click on red X button to remove the item from cart",
+            "match": {
+              "location": "JamilLaptopsNoteBooksStepDef.user_click_on_red_X_button_to_remove_the_item_from_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5056970900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "item should be removed and cart should show \u00270 item(s)\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0 item(s)",
+                  "offset": 45
+                }
+              ],
+              "location": "JamilLaptopsNoteBooksStepDef.item_should_be_removed_and_cart_should_show_item_s(String)"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "line": 4,
-            "name": "@testDB"
+            "line": 8,
+            "name": "@AddAndRemoveMac"
           }
         ]
       }
     ],
-    "name": "DataBase SQL query Feature Scenarios",
+    "name": "Laptop \u0026NoteBooks on Retail website",
     "description": "",
-    "id": "database-sql-query-feature-scenarios",
+    "id": "laptop-\u0026notebooks-on-retail-website",
     "keyword": "Feature",
-    "uri": "Features/DataBaseFeature.feature"
+    "uri": "Features/laptop\u0026notebooks.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@CompleteTest"
+      }
+    ]
   }
 ]

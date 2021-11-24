@@ -6,12 +6,12 @@ import core.Base;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pageObjectRepository.LaptopsNoteBooksPageObject;
-import pageObjectRepository.ShaiqLaptopsNoteBooksPageObject;
+import pageObjectRepository.JamilLaptopsNoteBooksPageObject;
 import utilities.WebDriverUtility;
 
-public class ShaiqLaptopsNoteBooksStepDef extends Base {
+public class JamilLaptopsNoteBooksStepDef extends Base {
 	
-	ShaiqLaptopsNoteBooksPageObject laptopNoteBook = new ShaiqLaptopsNoteBooksPageObject();
+	JamilLaptopsNoteBooksPageObject laptopNoteBook = new JamilLaptopsNoteBooksPageObject();
 	
 	@When("^User click on Laptop &NoteBook tab$")
 	public void user_click_on_Laptop_NoteBook_tab()  {
@@ -51,9 +51,21 @@ public class ShaiqLaptopsNoteBooksStepDef extends Base {
 	WebDriverUtility.screenShot();
 		
 	}
+	@Then("^User should see a message ‘Success: You have added MacBook to your shopping cart!’$")
+	public void user_should_see_a_message_Success_You_have_added_MacBook_to_your_shopping_cart(){
+		String expected =	"Success:";
+		String actual =	laptopNoteBook.SuccessCompareMacBookAir();
+		//actual.substring(0, 7);
+		
+		Assert.assertEquals(expected.substring(0, 7), actual.substring(0, 7));
+		logger.info("actual equals to expected");
+		WebDriverUtility.screenShot();
+	}
 
 	//****************************************************************
 	
+	// Laptop&NotBooks Feature file
+	// Tag Name = @AddAndRemoveMac
 	@Then("^User should see '(.+)' showed to the cart$")
 	public void user_should_see_tem_s_showed_to_the_cart(String message)  {
 		System.out.println(message.length() + " Expected string length");
